@@ -1,1 +1,1 @@
-<?php header( 'Location: /apclasses.html' ) ;  ?>
+<?php header( 'Location: /index.html' ) ;  ?>
