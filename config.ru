@@ -1,4 +1,4 @@
 require './config/environment.rb'
-require './dogchecklist.rb'
+require './app.rb'
 
 run Sinatra::Application

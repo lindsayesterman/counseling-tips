@@ -1,15 +1,15 @@
-# dogchecklist.rb
+# app.rb
 require 'sinatra'
 require './mailer.rb'
 
 get '/' do
-  erb :mywebsite
+  erb :index
 end
 
 post '/signup' do
     # TODO: eventually, actually save the email to the DB
    success = params['success']
-   erb :mywebsite
+   erb :index
 end 
 
 post '/signup/:signupStatus' do
@@ -22,5 +22,5 @@ post '/signup/:signupStatus' do
 
    sendTheEmail params[:Email]
 
-   erb :mywebsite
+   erb :index
 end 
