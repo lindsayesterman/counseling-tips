@@ -10,7 +10,7 @@ def sendTheEmail theUsersEmail
 	puts "the key is !!!! #{ENV['SENDGRID_API_KEY']}"
 
 	from = Email.new(email: 'test@example.com')
-	to = Email.new(email: 'philesterman@gmail.com')
+	to = Email.new(email: 'lindsayesterman@gmail.com')
 	subject = 'You have a new signup!'
 	content = Content.new(type: 'text/plain', value: 'Hey boo, a here is the users email: ' + theUsersEmail)
 	mail = Mail.new(from, subject, to, content)
