@@ -10,10 +10,12 @@
 
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-<link rel="manifest" href="assets/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="https://dailycollegetip.s3-us-west-2.amazonaws.com/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://dailycollegetip.s3-us-west-2.amazonaws.com/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://dailycollegetip.s3-us-west-2.amazonaws.com/favicon-16x16.png">
+<link rel="manifest" href="https://dailycollegetip.s3-us-west-2.amazonaws.com/site.webmanifest">
+
+
 
 
 <style>
@@ -347,7 +349,7 @@ display: inline-block;
 <body style="background-color: #F8F8F8;">
 
 <div class="top-box">
-<img src ="logo-green.jpg"/>
+<img src ="https://dailycollegetip.s3-us-west-2.amazonaws.com/logo-green.jpg"/>
 <header>
 Daily College Tip
 </header>
@@ -362,9 +364,9 @@ Daily College Tip
 
 
 <div class="cta-container">
-<form class="email-input">
+<form method="POST" action="/signup/success" class="email-input">
 
-<input type="text" placeholder="Enter your email..." required="required" data-vv-validate-on="none" autocomplete="off"class="email" aria-required="true" aria-invalid="false">
+<input type="text" placeholder="Enter your email..." required="required" data-vv-validate-on="none" autocomplete="off"class="email" aria-required="true" aria-invalid="false" name="Email">
 
 <button class="cta dark">
 	Subscribe to Daily College Tip

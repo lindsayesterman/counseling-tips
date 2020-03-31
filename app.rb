@@ -17,7 +17,7 @@ post '/signup/:signupStatus' do
    puts "Params: ${params}"
    puts params
 
-   puts "The email should be here:  "
+   print "The email should be here:  "
    puts params[:Email]
 
    sendTheEmail params[:Email]
