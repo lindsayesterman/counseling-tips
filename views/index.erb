@@ -60,8 +60,6 @@
     width: 58px;
     height: 58px;
     display: inline-block;
-    display: inline-flex;
-
 
                 }
 
@@ -388,15 +386,6 @@ display: inline-block;
     font-family:'Roboto', sans-serif;
 }
 
-.flex-container {
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-}
-
 
 
 button.cta {
@@ -422,24 +411,33 @@ button.cta {
     display: inline-block;
     line-height: 1.15;
     margin-bottom: 48px;
-    }
-
-
-
-
-/* Media Queries */
-@media screen and (max-width: 375px){
-
-.top-box{
-    width: 1000px;
-}
-
-.copyright{
-    width: 1000px;
-}
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left:244px;
 
 }
 
+/* MEDIA QUERIES*/
+@media screen and (max-width: 575px){
+.box {
+
+    padding-top: 48px;
+    padding-right: 24px;
+    padding-bottom: 48px;
+    padding-left: 24px;
+    height: 400px;
+    width: 412px;
+    margin: auto;
+
+
+}
+
+
+
+
+
+}
 
 
 
@@ -451,17 +449,13 @@ button.cta {
 
 <body style="background-color: #F8F8F8;">
 
-
-<a id="subscribe">
-<label for="subscribe"></label></a>
-
-
 <div class="top-box">
 <img src ="https://dailycollegetip.s3-us-west-2.amazonaws.com/logo-green.jpg"/>
 <header>
 Daily College Tip
 </header>
 </div>
+
 
 
 <div class="box">
@@ -474,7 +468,6 @@ Daily College Tip
 <form method="POST" action="/signup/success" class="email-input">
 
 <input type="text" placeholder="Enter your email..." required="required" data-vv-validate-on="none" autocomplete="off"class="email" aria-required="true" aria-invalid="false" name="Email">
-
 
 <button class="cta dark">
 	Subscribe to Daily College Tip
@@ -556,16 +549,13 @@ Daily College Tip
 </div>
 </div>
 
-<div class="flex-container">
-<div class="sub">
-    <a href="#subscribe">
+
+
 <button class="cta mobile">
     <strong>Enter Email </strong>
      To Get Daily Questions
 </button>
-</a>
-</div>
-</div>
+
 
 
 
@@ -585,16 +575,6 @@ Daily College Tip
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
 
 
 
