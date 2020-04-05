@@ -1,4 +1,4 @@
-require './config/environment.rb'
+require 'dotenv/load'
 require './app.rb'
 
 run Sinatra::Application

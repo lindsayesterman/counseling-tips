@@ -1,3 +1,3 @@
-ENV['SINATRA_ENV'] ||="development"
+puts "ENV is: " + ENV['SINATRA_ENV']
 
-ENV['SENDGRID_API_KEY'] ||="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"
+puts "SG-Key is: " + ENV['SENDGRID_API_KEY'] 

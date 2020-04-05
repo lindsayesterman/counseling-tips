@@ -1,4 +1,5 @@
 # app.rb
+require 'dotenv/load'
 require 'sinatra'
 require './mailer.rb'
 

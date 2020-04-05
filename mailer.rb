@@ -5,7 +5,7 @@ def sendTheEmail theUsersEmail
 
 	puts "the key is !!!! #{ENV['SENDGRID_API_KEY']}"
 
-	ENV['SENDGRID_API_KEY'] = "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"
+#	ENV['SENDGRID_API_KEY'] = "no more"
 
 	puts "the key is !!!! #{ENV['SENDGRID_API_KEY']}"
 
