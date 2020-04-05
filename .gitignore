@@ -4,3 +4,4 @@ _site/
 .jekyll-metadata
 .DS_Store
 config/environment.rb
+environment.rb
