@@ -420,8 +420,10 @@ button.cta {
     display: flex;
     justify-content: center;
     align-content: center;
-
 }
+
+
+
 
 
 .container1{
@@ -457,6 +459,13 @@ button.cta {
 
 
 }
+
+.btna > a {
+
+text-decoration: none;
+
+}
+
 
 
 /* MEDIA QUERIES*/
@@ -540,9 +549,9 @@ button.cta {
 
 .numberCircle    {
 
-    width: 18px;
-    line-height: 18px;
-    border-radius: 50%;
+    width: 14px;
+    line-height: 14px;
+    border-radius: 30%;
     text-align: center;
     font-size: 14px;
     border: 2px solid #ccc;
@@ -596,10 +605,17 @@ button.cta {
 
 <body style="background-color: #F8F8F8;">
 
+
+<a id="ctamobile">
+<label for="ctamobile"></label></a>
+
 <div class="top-box">
     
 <a href="/">
 <img src="https://dailycollegetip.s3-us-west-2.amazonaws.com/logo-green.jpg"/>
+
+
+
 <header>
 Daily College Tip
 </header>
@@ -703,12 +719,16 @@ Daily College Tip
 </div>
 </div>
 
-
+<div class="btna">
+<a href="#ctamobile">
 <div class="sub-flex">
 <button class="cta mobile">
 Enter Email To Get Daily Questions
 </button>
 </div>
+</a>
+</div>
+
 
 
 
