@@ -830,11 +830,17 @@ body {
 <body style="background-color: #F8F8F8;">
 
 
+
   <% if params[:signupStatus] %>
 
   <!-- TODO - use a script tag and call the javascript function myFunction() to trigger an alert -->
+<script>
+myFunction();
+</script>
+
 
   <% end %>
+  
 
 
 
@@ -868,11 +874,8 @@ Daily College Tip
 <input type="text" placeholder="Enter your email..." required="required" data-vv-validate-on="none" autocomplete="off"class="email" aria-required="true" aria-invalid="false" name="Email">
 
 
-<!-- TODO - stop triggering myFunction here, revert it to what it was before  -->
 <button class="cta dark">
-    <a href="#" onclick="myFunction()">
     Subscribe to Daily College Tip
-    </a>
     </button>
 
 </form>
