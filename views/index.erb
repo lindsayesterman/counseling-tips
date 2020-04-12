@@ -830,17 +830,25 @@ body {
 <body style="background-color: #F8F8F8;">
 
 
+  
 
   <% if params[:signupStatus] %>
 
   <!-- TODO - use a script tag and call the javascript function myFunction() to trigger an alert -->
 <script>
-myFunction();
+
+window.onload = function () { 
+
+      myFunction();
+
+}
+
 </script>
 
 
   <% end %>
-  
+
+
 
 
 
@@ -884,6 +892,9 @@ Daily College Tip
 </div>
 </div>
 </diV>
+
+
+
 
 <div class="all-college-tips">
     <div class="college-flex">
