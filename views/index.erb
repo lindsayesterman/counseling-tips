@@ -82,8 +82,8 @@ alert('Thanks for subscribing!')
     padding-right: 24px;
     padding-bottom: 48px;
     padding-left: 24px;
-    height: 300px;
-    width: 912px;
+    height: 50%;
+    width: 75%;
     margin: auto;
     margin-top: 50px;
 
@@ -130,11 +130,11 @@ alert('Thanks for subscribing!')
 
 .box > .cta-container > form.email-input > button.cta {
     width: 500px;
+    padding: 15px 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     margin: 0;
     background: #ffce38;
-    height: 50px;
     border-radius: 4px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -242,6 +242,7 @@ button.cta  {
     color: #6e5817;
     font-weight: 500;
     font-size: 18px;
+
         }
 
 
@@ -430,7 +431,7 @@ button.cta {
     text-rendering: auto;
     overflow: visible;
     display: inline-block;
-    line-height: 1.15;
+    line-height: 1.2em;
     margin-bottom: 48px;
     display: flex;
     justify-content: center;
@@ -497,7 +498,17 @@ body {
     overflow-x: hidden !important;
 }
 
+@media screen and (min-width: 721px) and (max-width: 1200px){
 
+.box{
+
+width: 85%;
+height: 30%;
+
+}
+
+
+}
 
     /* MEDIA QUERIES*/
     @media screen and (min-width: 450px) and (max-width: 720px){
@@ -508,10 +519,11 @@ body {
         padding-right: 24px;
         padding-bottom: 48px;
         padding-left: 24px;
-        height: 390px;
-        width: 912px;
+        height: 380px;
+        width: 90%;
         margin: auto;
         align-items: center;
+        margin-bottom: 50px;
 
     }
 
@@ -606,7 +618,7 @@ body {
 
     .box > .cta-container > form.email-input > input.email {
 
-         width: 394px;
+         width: 374px;
          border-bottom-left-radius: 0;
          border-bottom-right-radius: 0;
          text-align: center;
@@ -619,7 +631,7 @@ body {
 
 
     .box > .cta-container > form.email-input > button.cta {
-        width: 400px;
+        width: 380px;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         margin: 0;
@@ -676,8 +688,8 @@ body {
 
 
     }
-    /* PHONE MEDIA QUERY*/
-    @media screen and (max-width: 449px){
+    /* BIG PHONE MEDIA QUERY*/
+    @media screen and (max-width: 449px) and (min-width: 321px){
 
 
     .box {
@@ -687,7 +699,7 @@ body {
         padding-bottom: 48px;
         padding-left: 24px;
         height: 480px;
-        width: 912px;
+        width:90%;
         margin: auto;
         align-items: center;
     }
@@ -739,34 +751,6 @@ body {
         margin-left: 2%;
     }
 
-    .box > .cta-container > form.email-input > input.email {
-
-         width: 294px;
-         border-bottom-left-radius: 0;
-         border-bottom-right-radius: 0;
-         text-align: center;
-         height: 50px;
-         border-radius: 4px;
-         font-size: 18px;
-         color: #111;
-
-                    }
-
-
-    .box > .cta-container > form.email-input > button.cta {
-        width: 312px;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-        margin: 0;
-        background: #ffce38;
-        height: 50px;
-        border-radius: 4px;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-        -webkit-box-shadow: 0 3px 0 0 #6e5817;
-        box-shadow: 0 3px 0 0 #6e5817;
-
-                    }
 
     .white-box-2     {
 
@@ -782,6 +766,36 @@ body {
         margin-top: 30px;
         margin-bottom: 50px;
 
+
+                    }
+
+
+    .box > .cta-container > form.email-input > input.email {
+
+         width: 324px;
+         border-bottom-left-radius: 0;
+         border-bottom-right-radius: 0;
+         text-align: center;
+         height: 50px;
+         border-radius: 4px;
+         font-size: 18px;
+         color: #111;
+
+                    }
+
+
+    .box > .cta-container > form.email-input > button.cta {
+        width: 330px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        margin: 0;
+        background: #ffce38;
+        height: 50px;
+        border-radius: 4px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        -webkit-box-shadow: 0 3px 0 0 #6e5817;
+        box-shadow: 0 3px 0 0 #6e5817;
 
                     }
 
@@ -818,7 +832,123 @@ body {
 
                     }
 
+    
+
     }
+
+
+/* SMALL PHONE MEDIA QUERY*/
+      @media screen and (max-width: 320px){
+
+
+.box {
+
+width:90%;
+height: 550;
+}
+
+
+.box > .cta-container > form.email-input > input.email {
+
+         width: 98%;
+         border-bottom-left-radius: 0;
+         border-bottom-right-radius: 0;
+         text-align: center;
+         height: 50px;
+         border-radius: 4px;
+         font-size: 18px;
+         color: #111;
+
+                    }
+
+
+    .box > .cta-container > form.email-input > button.cta {
+        width: 258px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        margin: 0;
+        background: #ffce38;
+        border-radius: 4px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        -webkit-box-shadow: 0 3px 0 0 #6e5817;
+        box-shadow: 0 3px 0 0 #6e5817;
+
+                    }
+
+
+    .white-box-2 {
+
+
+    height: 350px;
+
+            }
+
+
+    .steps > header {   
+
+        margin-left: 5%;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        display: inline-block;
+
+            }
+
+
+    .steps > p {
+
+        font-size: 12px;
+        color: #555555;
+        line-height: 40px;
+        padding: 12px 0 0 37px;
+        margin-left: 4%;
+
+                }
+
+
+     .steps > header {   
+
+        margin-left: 5%;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        display: inline-block;
+
+            }
+
+
+    .steps > p {
+
+        font-size: 17px;
+        color: #555555;
+        line-height: 40px;
+        padding: 12px 0 0 37px;
+        margin-left: 4%;
+
+                }
+
+
+       h3 {
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: 1;
+    margin: 24px 0 0;
+    line-height: 36px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+
+           }
+
+
+
+
+
+      }
+
+
+
+
 
 
 </style>
@@ -830,11 +960,30 @@ body {
 <body style="background-color: #F8F8F8;">
 
 
+  
+
+
+  <% if params[:signupStatus] %>
+
+  <!-- TODO - use a script tag and call the javascript function myFunction() to trigger an alert -->
+<script>
+
+window.onload = function () { 
+
+      myFunction();
+
+}
+
+</script>
+
+
+  <% end %>
 
 
 
-<a id="ctamobile">
-<label for="ctamobile"></label></a>
+
+
+
 
 <div class="top-box">
     
@@ -873,6 +1022,9 @@ Daily College Tip
 </div>
 </div>
 </diV>
+
+
+
 
 <div class="all-college-tips">
     <div class="college-flex">
@@ -954,7 +1106,6 @@ Daily College Tip
 </div> 
 
 <div class="btna">
-<a href="#ctamobile">
 <div class="sub-flex">
 <button class="cta mobile">
 Enter Email To Get Daily Questions
