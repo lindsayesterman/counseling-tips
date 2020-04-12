@@ -14,12 +14,16 @@
 <link rel="icon" type="image/png" sizes="32x32" href="https://dailycollegetip.s3-us-west-2.amazonaws.com/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://dailycollegetip.s3-us-west-2.amazonaws.com/favicon-16x16.png">
 <link rel="manifest" href="https://dailycollegetip.s3-us-west-2.amazonaws.com/site.webmanifest">
+<script>
+
+var myFunction = function() {
+alert('you did it!')
+}
 
 
-
+</script>
 
 <style>
-
 
 
 .top-box   {
@@ -103,8 +107,12 @@
     color: white;
     font-family: 'Roboto', sans-serif;
 
-
 	       }
+
+body{
+
+        background-color: #F8F8F8;
+}
 
 
 	
@@ -134,7 +142,6 @@
     border-top-right-radius: 0;
     -webkit-box-shadow: 0 3px 0 0 #6e5817;
     box-shadow: 0 3px 0 0 #6e5817;
-
                 }
 
 
@@ -282,6 +289,7 @@ button.cta  {
     text-align: center;
     color: #393939;
     font-weight: 400;
+
 
 			}
 
@@ -434,14 +442,6 @@ button.cta {
 
 }
 
-.sample-flex{
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
 
 .steps-flex{
 
@@ -549,7 +549,7 @@ body {
 }
 
 
-.tips-by        {
+.tips-by  >       {
 
     margin-bottom: 0;
     margin-right: 10px;
@@ -557,6 +557,8 @@ body {
     line-height: 1.714286;
     font-family: 'Montserrat', sans-serif;
     margin-top: 60px;
+    display: inline-block;
+    display: block;
     
 }
 
@@ -660,8 +662,8 @@ body {
                 }
 
 
-
 }
+
 /* PHONE MEDIA QUERY*/
 @media screen and (max-width: 449px){
 
@@ -813,18 +815,16 @@ body {
 
 </head>
 
-<body style="background-color: #F8F8F8;">
+<body>
 
 
 <a id="ctamobile">
 <label for="ctamobile"></label></a>
 
+
 <div class="top-box">
-    
 <a href="/">
 <img src="https://dailycollegetip.s3-us-west-2.amazonaws.com/logo-green.jpg"/>
-
-
 
 <header>
 Daily College Tip
@@ -843,7 +843,7 @@ Daily College Tip
 <div class="cta-container">
 <form method="POST" action="/signup/success" class="email-input">
 
-<input type="text" placeholder="Enter your email..." required="required" data-vv-validate-on="none" autocomplete="off"class="email" aria-required="true" aria-invalid="false" name="Email">
+<input type="email" id="email" placeholder="Enter your email..." name="email" required="email" -vv-validate-on="none" autocomplete="off"class="email" aria-required="true" aria-invalid="false" name="Email">
 
 <button class="cta dark">
 	Subscribe to Daily College Tip
@@ -854,12 +854,16 @@ Daily College Tip
 	No spam, ever. Easy unsubscribe.</p>
 </div>
 </div>
-</diV>
+</div>
+
 
 <div class="college-flex">
 <div class="all-college-tips">
+
 <div class="tips-by"> Tips by Students from:</div>
 
+
+<div class="college-logo">
 <div class="colleges"> Harvard
 <div class="university">UNIVERSITY</div></div>
 
@@ -876,7 +880,7 @@ Daily College Tip
 <div class="university">UNIVERSITY</div></div>
 </div>
 </div>
-
+</div>
 
 <div class="steps-flex">
 <div class="white-box">
