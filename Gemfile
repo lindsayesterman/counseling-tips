@@ -10,3 +10,5 @@ gem "sinatra"
 gem 'sendgrid-ruby'
 
 gem "dotenv"
+
+gem 'newrelic_rpm'
