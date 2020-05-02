@@ -573,7 +573,7 @@ body {
         margin-left: 2%;
     }
 
-
+    
 
     .white-box-2 {
         background-color: #ffffff;
@@ -674,11 +674,16 @@ body {
     }
 
     .steps > header {
+        font-size: 17px;
         letter-spacing: 0.1px;
-        margin-left: 1px;
+        display: inline-block;
     }
 
     .steps > p {
+        font-size: 17px;
+        color: #555555;
+        line-height: 40px;
+        padding: 12px 0 0 37px;
         margin-left: 4%;
     }
 
