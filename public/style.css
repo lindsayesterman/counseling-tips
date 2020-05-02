@@ -672,13 +672,13 @@ body {
     }
 
     .steps > header {
-        font-size: 12px;
+        font-size: 17px;
         letter-spacing: 0.1px;
         display: inline-block;
     }
 
     .steps > p {
-        font-size: 12px;
+        font-size: 17px;
         color: #555555;
         line-height: 40px;
         padding: 12px 0 0 37px;
