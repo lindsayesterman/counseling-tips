@@ -395,6 +395,11 @@ body {
         margin-bottom: 50px;
     }
 
+    .premium{
+        border:1px solid #ffce38;
+        font-size:14.5px;
+    }
+
     .numberCircle {
         width: 24px;
         line-height: 24px;
@@ -607,7 +612,7 @@ body {
     }
 
     .box > .cta-container > form.email-input > button.cta {
-        width: 330px;
+        width: 343px;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         margin: 0;
@@ -627,6 +632,12 @@ body {
     .container {
         max-width: 100% !important;
         overflow-x: hidden !important;
+    }
+
+
+    .premium{
+        border:1px solid #ffce38;
+        font-size:14px;
     }
 
 }
