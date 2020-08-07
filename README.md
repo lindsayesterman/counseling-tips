@@ -6,11 +6,16 @@ Daily College Tip is an app that helps students with college counseling. We prov
 
 ## The Problem
 
-Florida has a ratio of 485 students to 1 guidance counselor. I noticed students at my school were struggling to find valid information regarding college admissions tips. They had a hard time sourcing the tips and then making sure they were reliable. 
+Florida has a ratio of 485 students to 1 guidance counselor. I noticed students at my school were struggling to find valid information regarding college admissions tips. They had a hard time sourcing the tips and then making sure they were reliable. Daily College Tip does this for them. 
 
 ## Solution
 
 Daily College Tip that provides students looking for college counseling with free, emailed college admissions tips. Users subscribe on [dailycollegetip.com](http://www.dailycollegetip.com/) and they then get tips sent straight to their inbox. 
+
+## App
+
+![daily college tip home page](https://github.com/lindsayesterman/college-tips/blob/master/dcthome.png?raw=true)
+
 
 ## Technologies Used:
 
