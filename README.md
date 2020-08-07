@@ -14,7 +14,7 @@ Daily College Tip that provides students looking for college counseling with fre
 
 ## App
 
-![daily college tip home page](https://github.com/lindsayesterman/college-tips/blob/master/dcthome.jpeg?raw=true)
+![daily college tip home page](https://github.com/lindsayesterman/college-tips/blob/master/dcthome.jpg?raw=true)
 
 
 ## Technologies Used:
